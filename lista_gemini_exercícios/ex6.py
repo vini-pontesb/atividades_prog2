@@ -15,7 +15,7 @@ class ConexaoBanco(LogMixin):
         print(msg)
     
     def desconectar(self):
-        msg = super().log(f"Você se desconectou ao banco {self.nome} - {self.numero}")
+        msg = super().log(f"Você se desconectou do banco {self.nome} - {self.numero}")
         print(msg)
 
 nome_banco = input("Insira o nome do banco: ")
